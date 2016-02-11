@@ -2,10 +2,24 @@
 
 body {
     background-color: rgb(249, 248, 249);
+  background-image: url('http://www.uglydogbooks.com/wp-content/uploads/2014/04/books.jpg') ;
+
+}
+
+label {
+color:white;
+    font    14px;
 }
 
 #myForm {
     padding-top:25px;
     margin-left:25px;
 }
-    
+.form-group{
+width:60%;
+}
+.form-control{
+    margin:10px 10px;
+}
+tr:nth-child(odd)		{ background-color:whitesmoke; }
+tr:nth-child(even)		{ background-color:aliceblue; }
